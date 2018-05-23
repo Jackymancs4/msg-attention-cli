@@ -1,14 +1,48 @@
 {
   "name": "msg-attention-cli",
+  "description": "Display attention-grabbing messages in the terminal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "",
+  "author": {
+    "name": "Giacomo Rossetto",
+    "email": "jackyman_cs4@live.it"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "standard": "standard",
+    "lint-lib": "standard ./lib",
+    "lint-test": "standard ./test",
+    "fix": "standard --fix"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  },
+  "keywords": [
+    "text",
+    "logging",
+    "log",
+    "message",
+    "attention",
+    "box",
+    "terminal",
+    "console",
+    "strings"
+  ],
   "dependencies": {
-    "commander": "^2.15.1"
-  }
+    "cli-pipe": "^0.0.1",
+    "commander": "^2.15.1",
+    "msg-attention": "^1.0.0"
+  },
+  "license": "MIT"
 }
