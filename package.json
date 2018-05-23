@@ -15,6 +15,9 @@
     "url": ""
   },
   "main": "index.js",
+  "bin": {
+    "attention": "index.js"
+  },
   "engines": {
     "node": ">= 0.8.0"
   },
